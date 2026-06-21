@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zhindex-i-game · 爱游戏 · 用途识别指引</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #f7f9fc;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: #1e2a3a;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.4rem 1.8rem 3.6rem;
+    }
+
+    /* hero */
+    .hero {
+      margin-bottom: 4rem;
+      padding-top: 2rem;
+    }
+    .hero h1 {
+      font-size: 2.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #0b1a2b;
+      margin-bottom: 0.6rem;
+      line-height: 1.2;
+    }
+    .hero .subhead {
+      font-size: 1.1rem;
+      color: #425067;
+      border-left: 3px solid #2077b0;
+      padding-left: 1.2rem;
+      margin-top: 0.4rem;
+    }
+
+    /* 通用段落 */
+    p {
+      margin-bottom: 1.4rem;
+      font-size: 1rem;
+      color: #2a3b4e;
+    }
+    .tagline {
+      font-weight: 400;
+      background: #eaeef3;
+      display: inline-block;
+      padding: 0.1rem 1rem;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      color: #1f4a6b;
+      margin-bottom: 1.6rem;
+    }
+
+    /* 标题层级 */
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 2.8rem 0 0.8rem;
+      color: #10324b;
+      letter-spacing: -0.01em;
+      border-bottom: 1px solid #dbe2ea;
+      padding-bottom: 0.25rem;
+    }
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 500;
+      margin: 1.8rem 0 0.4rem;
+      color: #1f3d59;
+    }
+
+    /* 优势/特点卡片（极简留白） */
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.8rem 2rem;
+      margin: 1.6rem 0 0.8rem;
+    }
+    .feature-item {
+      flex: 1 1 180px;
+      background: transparent;
+      padding: 0.2rem 0;
+    }
+    .feature-item .num {
+      font-size: 1.8rem;
+      font-weight: 350;
+      color: #2077b0;
+      line-height: 1;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+    .feature-item h4 {
+      font-weight: 500;
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+      color: #1f3d59;
+    }
+    .feature-item p {
+      font-size: 0.9rem;
+      color: #3a4e63;
+      margin-bottom: 0;
+    }
+
+    /* 说明区块 */
+    .intro-card {
+      background: white;
+      padding: 1.8rem 2rem;
+      border-radius: 16px;
+      box-shadow: 0 2px 6px rgba(0,20,40,0.04);
+      margin: 1.8rem 0 2.4rem;
+    }
+    .intro-card p:last-of-type {
+      margin-bottom: 0;
+    }
+
+    /* FAQ 摘要 */
+    .faq-summary {
+      margin: 2.6rem 0 2rem;
+    }
+    .faq-item {
+      padding: 0.9rem 0;
+      border-bottom: 1px solid #e6ecf3;
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+    .faq-q {
+      font-weight: 460;
+      color: #10324b;
+      margin-bottom: 0.2rem;
+    }
+    .faq-a {
+      font-size: 0.9rem;
+      color: #3f556b;
+      margin-left: 0.2rem;
+    }
+
+    /* 底部链接 */
+    .footer-links {
+      margin-top: 3.6rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid #dce4ed;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem 1.8rem;
+      font-size: 0.9rem;
+      color: #3d566e;
+    }
+    .footer-links a {
+      color: #1f5680;
+      text-decoration: none;
+      border-bottom: 1px dotted #b3c8db;
+      transition: border 0.15s;
+    }
+    .footer-links a:hover {
+      border-bottom: 1px solid #1f5680;
+    }
+
+    /* 响应式 */
+    @media (max-width: 540px) {
+      .container { padding: 1.8rem 1.2rem 2.8rem; }
+      .hero h1 { font-size: 2rem; }
+      .intro-card { padding: 1.4rem 1.2rem; }
+      .feature-grid { gap: 1.4rem; }
+    }
+    @media (max-width: 400px) {
+      .hero h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- hero 区 -->
+  <div class="hero">
+    <div class="tagline">快速识别 · 聚焦工具属性</div>
+    <h1>一个名字，一种指向<br>「爱游戏」的用途是什么？</h1>
+    <div class="subhead">如果你第一次来到 zhindex-i-game，这里说明它为何存在、为谁提供参考。</div>
+  </div>
+
+  <!-- 简短引入：用户意图 -->
+  <p>打开一个陌生网站，最初的几秒往往都在确认同一个问题：<strong>这个页面能帮我做什么？</strong> zhindex-i-game 的设计出发点正是为了缩短这个判断过程。它不是一个资讯平台，也不提供下载或社区互动，而是一个面向游戏兴趣的索引式页面——围绕「爱游戏」这一关键词聚合信息指向与分类说明。</p>
+
+  <p>整站围绕单一核心标识运转，适合希望快速了解某款游戏、某个题材或某类服务背后关联信息的用户。不需要注册，没有弹窗引导，所有的内容组织都为了降低认知负担。</p>
+
+  <!-- 优势区：三个特点（极简卡片） -->
+  <h2>为什么值得留意这个页面</h2>
+  <div class="feature-grid">
+    <div class="feature-item">
+      <span class="num">01</span>
+      <h4>识别优先</h4>
+      <p>从域名到标题保持一致的命名，避免信息噪音，让你三秒内理解站点属性。</p>
+    </div>
+    <div class="feature-item">
+      <span class="num">02</span>
+      <h4>结构克制</h4>
+      <p>没有冗余模块，每个区块只回答一个用户可能的疑问，段落之间保持承接。</p>
+    </div>
+    <div class="feature-item">
+      <span class="num">03</span>
+      <h4>通用参考</h4>
+      <p>不绑定特定游戏或厂商，提供一个相对中立的索引框架，方便对照与延伸。</p>
+    </div>
+  </div>
+
+  <!-- 说明区：更具体的使用场景 -->
+  <div class="intro-card">
+    <h3 style="margin-top:0;">适合哪些场景？</h3>
+    <p>当你想通过一个简洁的入口确认「爱游戏」这个关键词所关联的站点概貌，或者需要在一个干净的解释页里找到定位说明时，这个页面能够直接提供答案。它尤其适合：</p>
+    <ul style="padding-left:1.5rem; margin-bottom:0.6rem; color: #2a3b4e; line-height: 1.8;">
+      <li>想核实网站用途的新访客</li>
+      <li>需要一份轻量级索引说明的编辑或爱好者</li>
+      <li>从站外链接跳转后希望快速理解上下文的人</li>
+    </ul>
+    <p style="margin-top:0.6rem;">整个页面只有必要的陈述与分类，没有任何干扰项。你可以把它当作一张数字名片——上面只写了名字和它所代表的范围。</p>
+  </div>
+
+  <!-- 自然句子嵌入链接 ①（核心要求：文本严格等于「爱游戏」） -->
+  <p>如果你已经有了初步印象，可以直接通过 <a href="https://zhindex-i-game.com.cn">爱游戏</a> 这个链接进入站点主页，进一步查看具体的索引结构。页面的设计始终以信息清晰为优先。</p>
+
+  <!-- FAQ 摘要 -->
+  <h2>常见疑问（摘要）</h2>
+  <div class="faq-summary">
+    <div class="faq-item">
+      <div class="faq-q">这个网站需要登录或付费吗？</div>
+      <div class="faq-a">不需要。zhindex-i-game 所有内容均公开可读，没有用户系统或付费门槛。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">「爱游戏」是一个具体游戏的名字吗？</div>
+      <div class="faq-a">不是。在这里它是一个概括性关键词，用来指代站点关注的领域方向，不特指某款产品。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">我能在这里找到下载链接或攻略吗？</div>
+      <div class="faq-a">这个页面不直接提供下载或攻略，它更像一个指向性说明页。后续内容围绕分类与索引展开。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">为什么页面那么简洁？</div>
+      <div class="faq-a">因为设计目标就是让访客用最少的时间了解网站用途。留白和窄正文有助于聚焦核心信息。</div>
+    </div>
+  </div>
+
+  <!-- 第二处自然嵌入链接（同样满足可见文本严格等于「爱游戏」，且不出现点击/进入等词） -->
+  <p style="margin-top:0.6rem;">对索引结构或具体分类有进一步兴趣的读者，可以再次参考 <a href="https://zhindex-i-game.com.cn">爱游戏</a> 的主页内容，那里提供了更完整的框架。当前页面只承担前置说明的角色。</p>
+
+  <!-- 底部链接区 -->
+  <div class="footer-links">
+    <span>zhindex-i-game.com.cn</span>
+    <a href="https://zhindex-i-game.com.cn">爱游戏</a>
+    <span style="color:#6f859f;">· 索引说明页 ·</span>
+    <span>极简 · 留白 · 清晰</span>
+  </div>
+
+</div>
+</body>
+</html>
