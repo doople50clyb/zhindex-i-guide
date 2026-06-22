@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>再访 · 500彩票网</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.7;
+            color: #2c2f36;
+            background: #f5f7fa;
+            min-height: 100vh;
+        }
+
+        /* 深色头图 */
+        .hero {
+            background: linear-gradient(145deg, #0b1829 0%, #1d2c3e 100%);
+            padding: 4rem 2rem 5rem;
+            text-align: center;
+            color: #e6edf5;
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #f6b26b, #e8914a, #f6b26b);
+            opacity: 0.55;
+        }
+        .hero h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-bottom: 0.75rem;
+        }
+        .hero p {
+            font-size: 1.05rem;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #bcc9d9;
+            line-height: 1.8;
+        }
+
+        /* 正文浅色区 */
+        .main-content {
+            max-width: 880px;
+            margin: -2.5rem auto 3rem;
+            padding: 2.5rem 2rem;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+            position: relative;
+            z-index: 2;
+        }
+
+        .intro {
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+            border-left: 4px solid #e8914a;
+            padding-left: 1.25rem;
+            background: #fbfaf8;
+            border-radius: 0 8px 8px 0;
+            padding: 1rem 1.5rem;
+        }
+
+        .feature-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.8rem;
+            margin: 2.5rem 0 1.8rem;
+        }
+        .feature-item {
+            flex: 1 1 200px;
+            background: #f9fafc;
+            padding: 1.4rem 1.2rem 1.2rem;
+            border-radius: 16px;
+            transition: all 0.2s;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+        }
+        .feature-item:hover {
+            background: #f4f2ef;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.04);
+            transform: translateY(-2px);
+        }
+        .feature-item h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1d2c3e;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .feature-item h3::before {
+            content: '·';
+            color: #e8914a;
+            font-size: 1.6rem;
+            line-height: 0;
+            margin-right: 2px;
+        }
+        .feature-item p {
+            font-size: 0.92rem;
+            color: #4a4f5a;
+            line-height: 1.6;
+        }
+
+        .story-block {
+            margin: 2.2rem 0 1rem;
+            padding: 0 0.25rem;
+        }
+        .story-block p {
+            margin-bottom: 1.2rem;
+        }
+
+        .outro {
+            background: #f4f2ef;
+            padding: 1.6rem 1.8rem;
+            border-radius: 18px;
+            margin-top: 2.5rem;
+            font-size: 0.98rem;
+            color: #2e353f;
+        }
+
+        a {
+            color: #b86d2f;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s, color 0.2s;
+        }
+        a:hover {
+            color: #8f4f1c;
+            border-bottom-color: #b86d2f;
+        }
+
+        .faq-note {
+            margin: 2.2rem 0 0.2rem;
+            padding: 1.2rem 0 0;
+            border-top: 1px dashed #d5dce6;
+        }
+        .faq-note summary {
+            cursor: default;
+            font-weight: 500;
+            color: #1d2c3e;
+            margin-bottom: 0.5rem;
+            font-size: 0.98rem;
+        }
+        .faq-note p {
+            font-size: 0.9rem;
+            color: #4f5a67;
+            margin-top: 0.1rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 640px) {
+            .hero { padding: 3rem 1.5rem 4rem; }
+            .hero h1 { font-size: 1.6rem; }
+            .main-content { padding: 2rem 1.2rem; margin: -2rem 0.8rem 2rem; }
+            .feature-grid { gap: 1rem; }
+            .feature-item { flex: 1 1 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>再次遇见 · 500彩票网</h1>
+        <p>记得收藏。常常回来看看。这里的信息一直为你准备好。</p>
+    </div>
+
+    <div class="main-content">
+
+        <div class="intro">
+            <p>有些页面，值得放在书签栏；有些站点，隔段时间再来，依然觉得熟悉。</p>
+            <p>对于关注数据、查看走势、保持信息更新的人来说，<a href="https://data-500.com">500彩票网</a>便是这样一个安静的锚点。它不喧闹，但足够可靠。</p>
+        </div>
+
+        <div class="story-block">
+            <p>两年前第一次打开这个网站，觉得界面清清爽爽，没什么干扰。之后每次重新访问，都能找到之前看过的列表和记录。后来我养成一个小习惯：每周固定一个时间，点开收藏夹里的链接，快速扫一眼自己的关注项。时间久了，这变成了一种从容的节奏，而不是急急忙忙的刷新。</p>
+            <p>网站没有强迫我注册或留下什么，只是提供了信息。但正因如此，我更愿意反复回来——它像一本整理好的笔记本，每次翻开，总能看到自己关心的那一页。</p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>数据陈列</h3>
+                <p>走势、分布、过往记录，以清晰表格和简易图形式呈现，便于日常对比与回顾。</p>
+            </div>
+            <div class="feature-item">
+                <h3>低噪界面</h3>
+                <p>没有弹窗与强推内容，页面结构稳定，适合长期关注和反复查阅。</p>
+            </div>
+            <div class="feature-item">
+                <h3>持续可用</h3>
+                <p>自初次使用以来，一直保持在线，信息更新稳定，没有突然变动或中断。</p>
+            </div>
+            <div class="feature-item">
+                <h3>收藏友好</h3>
+                <p>页面地址固定，收藏后可以直接跳转，不需要每次重新搜索入口。</p>
+            </div>
+        </div>
+
+        <div class="story-block">
+            <p>我曾向几位同样有长期关注习惯的朋友推荐了这里。大家的反馈很一致：没有压力，信息直白，不会浪费时间去分辨广告和内容。坦白说，在这个追逐注意力的时代，一个愿意退一步、让用户自己决定如何使用的网站，反而更容易留住人。</p>
+            <p>如果你也喜欢把一些网站固定在浏览器标签栏，或者你正在找一个可以定期回来翻看数据的地方，不妨把 <a href="https://data-500.com">500彩票网</a> 放进收藏夹。它不属于那种需要你天天盯着看的类型，而是当你需要查阅、对比或回顾时，它就在那里，安静、整齐。</p>
+        </div>
+
+        <div class="outro">
+            <p>好的工具往往不喧宾夺主。它只负责提供信息，而由你来决定什么时候看、看多久。这或许就是很多人把「500彩票网」保留在收藏夹多年的原因。</p>
+            <p style="margin-top:0.6rem; font-size:0.88rem; color:#5b6470;">—— 一个普通用户的真实记录，2025 · 春</p>
+        </div>
+
+        <div class="faq-note">
+            <details>
+                <summary>关于收藏与持续关注 —— 几个经常被问到的点</summary>
+                <p><strong>Q:</strong> 网站需要登录才能查看数据吗？<br>
+                <strong>A:</strong> 不需要。直接打开页面即可浏览，收藏后每次访问无需额外操作。</p>
+                <p><strong>Q:</strong> 数据更新频率如何？<br>
+                <strong>A:</strong> 根据过往观察，信息保持定期更新，未出现长时间停滞。具体以实际页面为准。</p>
+                <p><strong>Q:</strong> 适合用手机浏览器访问吗？<br>
+                <strong>A:</strong> 页面在移动端有良好缩放与适配，收藏后使用体验与桌面端一致。</p>
+            </details>
+        </div>
+
+    </div>
+
+</body>
+</html>
